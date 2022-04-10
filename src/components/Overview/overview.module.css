@@ -20,3 +20,21 @@
   font-size: 16pt;
   letter-spacing: 0.2pt;
 }
+
+@media screen and (max-width: 768px) {
+  .tagline {
+    font-size: 14pt;
+  }
+  .desc {
+    font-size: 12pt;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .tagline {
+    font-size: 14pt;
+  }
+  .desc {
+    font-size: 10pt;
+  }
+}

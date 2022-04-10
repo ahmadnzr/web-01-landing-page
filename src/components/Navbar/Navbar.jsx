@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className={styles.logo}>
           beritadunia<b style={{ color: "green", fontSize: "20pt" }}>.</b>com
         </div>
-        <div>
+        <div className={styles.menu}>
           <a href="#home" className={styles.linkMenu}>
             Home
           </a>
