@@ -3,7 +3,7 @@ import styles from "./overview.module.css";
 
 export default function Overview() {
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.wrapper} id="home">
       <MarginWrapper styles={styles.overWrapper}>
         <h2 className={styles.tagline}>Berita Dunia dalam 1 Berita</h2>
         <p className={styles.desc}>

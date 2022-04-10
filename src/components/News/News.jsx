@@ -5,7 +5,7 @@ import styles from "./news.module.css";
 export default function News({ postingan }) {
   console.log(postingan);
   return (
-    <div className={styles.news}>
+    <div className={styles.news} id="news">
       <MarginWrapper>
         <h2>Berita Terkini</h2>
       </MarginWrapper>
